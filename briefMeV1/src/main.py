@@ -71,9 +71,9 @@ app.layout = html.Div([
 
     ]),
 
-    html.Div(id='table')
+    html.Div(id='table') # TODO: figure out how to display current error - Objects are not valid as a React child
 
-    # html.Div(generate_table(allData))
+    # html.Div(generate_table(allData)) 
 
     # html.Table([
     #     html.Tr([html.Td([html.H1(id='Title1'), html.H2(id='Source1'), html.Br(), html.P(id='Summary1')])]),
